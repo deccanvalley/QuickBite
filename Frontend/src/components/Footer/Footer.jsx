@@ -33,7 +33,7 @@ const Footer = () => {
       </div>
       <hr />
       <p className={style.FooterCopyrigth}>
-        CopyRight 2024 ©️ Company.com - All Rights Reserved.
+        CopyRight 2026 ©️ Team_8 - All Rights Reserved.
       </p>
     </div>
   );
