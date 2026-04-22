@@ -4,7 +4,7 @@ import axios from "axios";
 
 const StoreContextProvider = (props) => {
   const [cartItem, setCartItems] = useState({});
-  const URl = "https://quickbite-or9w.onrender.com/"
+  const URl = "https://quickbite-or9w.onrender.com"
   const [token , setToken] = useState("")
   const [food_list,setFoodList] = useState([])
 
