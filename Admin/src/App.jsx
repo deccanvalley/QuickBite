@@ -10,7 +10,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  const URl = "https://quickbite-or9w.onrender.com"
+  const URl = "http://localhost:4000"
 
 
   return (
