@@ -1,0 +1,5 @@
+import mongoose from "mongoose";
+
+export const connectDB = async () => {
+    await mongoose.connect("mongodb://pandeybhavya926_db_user:Baba108@ac-brvbh9r-shard-00-00.b0yoqbj.mongodb.net:27017,ac-brvbh9r-shard-00-01.b0yoqbj.mongodb.net:27017,ac-brvbh9r-shard-00-02.b0yoqbj.mongodb.net:27017/?ssl=true&replicaSet=atlas-2w68f3-shard-0&authSource=admin&appName=CampusDelivery");
+}
