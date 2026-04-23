@@ -49,7 +49,16 @@ const List = ({URl}) => {
               <p>{item.name}</p>
               <p>{item.category}</p>
               <p>{item.price}</p>
-              <p className='cursor' onClick={()=>removeFood(item._id)}>X</p>
+              <p
+                className='cursor'
+                onClick={()=>{
+                   if(window.confirm("Are you sure you want to delete this item?")){
+                       removeFood(item._id)
+                   }
+                }}
+                >
+                X
+               </p>
             </div>
           )
         })}
